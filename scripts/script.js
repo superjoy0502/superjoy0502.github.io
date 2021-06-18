@@ -20,7 +20,7 @@ $("#organizationslink").click(function () {
 
 $("#homelink").click(function () {
     $.when($("body").fadeOut("slow")).done(function () {
-        window.location.href = "/index.html";
+        window.location.href = "/";
     });
 });
 
