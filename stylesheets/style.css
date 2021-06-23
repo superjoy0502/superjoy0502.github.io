@@ -60,6 +60,7 @@ body {
     margin: 12px;
     text-decoration: none;
     border: none;
+    width: 20%;
 }
 
 button {
@@ -103,4 +104,14 @@ h3 {
 /* Seperating Line */
 hr {
     border: 2px solid white;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 700px){
+
+    #introduction #links button{
+        width: 50%;
+    }
+        
 }
