@@ -112,17 +112,23 @@ hr {
 /* tablets */
 @media screen and (max-width: 768px){
 
-    #introduction #links button{
+    .mainBut{
         width: 50%;
+    }
+
+    #links button {
+        background: #ff7f50;
+        padding: 12px;
+        margin: 12px;
+        text-decoration: none;
+        border: none;
+        width: 100px;
+        text-align: left;
     }
         
 }
 
 /* mobiles */
 @media screen and (max-width: 480px){
-
-    #introduction #links button{
-        width: 50%;
-    }
         
 }
