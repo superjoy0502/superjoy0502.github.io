@@ -112,7 +112,7 @@ hr {
 /* tablets */
 @media screen and (max-width: 768px){
 
-    .mainBut{
+    #introduction button {
         width: 50%;
     }
 
