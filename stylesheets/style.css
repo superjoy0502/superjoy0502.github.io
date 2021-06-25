@@ -112,8 +112,17 @@ hr {
 /* tablets */
 @media screen and (max-width: 768px){
 
-    #introduction #links button{
+    .homeMenu{
         width: 50%;
     }
-        
+
+    #links button {
+        background: #ff7f50;
+        margin: 12px;
+        text-decoration: none;
+        border: none;
+        width: 100px;
+        text-align: center;
+    }
+    
 }
