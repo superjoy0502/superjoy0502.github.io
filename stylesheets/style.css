@@ -112,13 +112,13 @@ hr {
 /* tablets */
 @media screen and (max-width: 768px){
 
-    .homeMenu{
+    #introduction #links button{
         width: 50%;
     }
 
-    #links button {
+    .menuButton {
         background: #ff7f50;
-        margin: 12px;
+        padding: 12px;
         text-decoration: none;
         border: none;
         width: 100px;
