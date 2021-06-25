@@ -117,8 +117,11 @@ hr {
     }
 
     .menuButton {
+        border-radius: 0px;
         background: #ff7f50;
+        box-shadow: -4px -4px 8px #994c30, 4px 4px 8px #ffb270;
         padding: 12px;
+        margin: 0px;
         text-decoration: none;
         border: none;
         width: 100px;
