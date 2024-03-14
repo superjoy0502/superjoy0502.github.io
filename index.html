@@ -1,13 +1,264 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Karos</title>
-  </head>
-  <body>
-    <div id="wings"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dongwoo Kim</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container py-5">
+    <!-- Profile Section -->
+    <div class="row align-items-center g-4">
+      <div class="col-auto">
+        <img src="./media/profilepic.jpg" alt="Profile picture" class="img-fluid rounded-circle"
+          style="width: 12em; height: 12em; object-fit: cover;">
+      </div>
+      <div class="col">
+        <h1 class="display-4 fw-bold">Dongwoo Kim</h1>
+        <p class="text-muted">First Year Undergraduate</p>
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard"
+              viewBox="0 0 16 16">
+              <path
+                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
+              <path
+                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
+            </svg>
+            <span class="text-muted">&nbsp;University of Toronto</span>
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt"
+              viewBox="0 0 16 16">
+              <path
+                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+            </svg>
+            <span class="text-muted">&nbsp;Toronto, ON, Canada</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="my-5" id="about">
+      <h2 class="fw-bold">About Me</h2>
+      <p>I am an undergraduate student studying fields of computer science and cognitive science. I am interested in
+        various fields such as: artificial intelligence, computer graphics, extended reality, human-computer
+        interaction, and video game development; I hope to explore these fields through my academic and personal
+        projects, as well as through internships and research opportunities while in school. I am looking forward to
+        potentially do a double major in computer science and cognitive science, as well as double minor in statistics
+        and psychology.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="my-5" id="education">
+      <h2 class="fw-bold">Education</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h3 class="h5 fw-bold">Honours Bachelor of Science</h3>
+          <p class="text-muted">University of Toronto</p>
+          <p class="text-muted">2023.9 ~ Present</p>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h5 fw-bold">Alberta High School Diploma</h3>
+          <p class="text-muted">Dr. Anne Anderson High School</p>
+          <p class="text-muted">2021.9 ~ 2023.6</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="my-5" id="projects">
+      <h2 class="fw-bold">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Hallucination Lens (환경 幻鏡)</h3>
+          <p class="text-muted">2023</p>
+          <p class="text-muted">3D first-person puzzle game made with Unity during Beaver Jam 2023 (경기게임잼과 함께하는 비버잼
+            2023)</p>
+          <!-- Tags -->
+          <span class="badge bg-secondary">#game</span>
+          <span class="badge bg-secondary">#gamejam</span>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">River of Atmosphere (대기의 강)</h3>
+          <p class="text-muted">2023</p>
+          <p class="text-muted">2D strategic puzzle game made with Unity during 23rd APPJAM (23회 앱잼)</p>
+          <!-- Tags -->
+          <span class="badge bg-secondary">#game</span>
+          <span class="badge bg-secondary">#gamejam</span>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Sports Streaming Scoreboard</h3>
+          <p class="text-muted">2023</p>
+          <p class="text-muted">A scoreboard overlay for sports streaming in Dr. Anne Anderson High School</p>
+          <!-- Tags -->
+          <span class="badge bg-secondary">#css</span>
+          <span class="badge bg-secondary">#html</span>
+          <span class="badge bg-secondary">#javascript</span>
+          <span class="badge bg-secondary">#school</span>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Esports Discord Bot</h3>
+          <p class="text-muted">2021.10 ~ 2023.6</p>
+          <p class="text-muted">A Discord bot for Dr. Anne Anderson High School Esports Club</p>
+          <!-- Tags -->
+          <span class="badge bg-secondary">#java</span>
+          <span class="badge bg-secondary">#school</span>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Sword Molding with Wekmung (왹멍이의 우당탕탕 검 만들기)</h3>
+          <p class="text-muted">2022</p>
+          <p class="text-muted">2D casual game made with Unity during 2022 Korean Youth Game Jam (2022 대한민국 청소년 게임잼)</p>
+          <!-- Tags -->
+          <span class="badge bg-secondary">#game</span>
+          <span class="badge bg-secondary">#gamejam</span>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Mailman of Consensus (교감의 집배원)</h3>
+          <p class="text-muted">2021</p>
+          <p class="text-muted">2D puzzle platformer game made with Unity during 2021 Korean Youth Game Jam (2021 대한민국
+            청소년 게임잼)</p>
+          <!-- Tags -->
+          <span class="badge bg-secondary">#game</span>
+          <span class="badge bg-secondary">#gamejam</span>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Infinite Homework</h3>
+          <p class="text-muted">2018</p>
+          <p class="text-muted">An Android 2D clicker game made with Unity</p>
+          <!-- Tags -->
+          <span class="badge bg-secondary">#game</span>
+          <span class="badge bg-secondary">#personal</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <!-- <section class="my-5" id="workexperience">
+      <h2 class="fw-bold">Work Experience</h2>
+      <div class="row g-4">
+          <div class="col-md-4">
+              <h3 class="h5 fw-bold">Company</h3>
+              <p class="text-muted">Duration</p>
+              <p class="text-muted">Description</p>
+          </div>
+      </div>
+    </section> -->
+
+    <!-- Skills Section -->
+    <section class="my-5" id="skills">
+      <h2 class="fw-bold">Skills</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h3 class="h5 fw-bold">Technical Skills</h3>
+          <ul>
+            <li>C#</li>
+            <li>HTML/CSS</li>
+            <li>Java/Kotlin</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Unity</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h5 fw-bold">Soft Skills</h3>
+          <ul>
+            <li>Communication</li>
+            <li>Problem-solving</li>
+            <li>Teamwork</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Extracurricular Activities Section -->
+    <section class="my-5" id="extracurricular">
+      <h2 class="fw-bold">Extracurricular Activities</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Broadcasting Club</h3>
+          <p class="text-muted">2021.10 ~ 2023.6</p>
+          <p class="text-muted">Director</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Esports Club</h3>
+          <p class="text-muted">2021.10 ~ 2023.6</p>
+          <p class="text-muted">Leader</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">goorm DevelUP Semicolon</h3>
+          <p class="text-muted">2020.5 ~ Present</p>
+          <p class="text-muted">Community Administrator</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="my-5" id="awards">
+      <h2 class="fw-bold">Awards</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Envisioning the Future Award</h3>
+          <p class="text-muted">2023<br />Dr. Anne Anderson High School</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Honours with Distinction</h3>
+          <p class="text-muted">2023<br />Dr. Anne Anderson High School</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Gold Amplify Award</h3>
+          <p class="text-muted">2023<br />Dr. Anne Anderson High School</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Gold Amplify Award</h3>
+          <p class="text-muted">2022<br />Dr. Anne Anderson High School</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">School Champion</h3>
+          <p class="text-muted">2022<br />Hypatia Contest</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Certificate of Distinction</h3>
+          <p class="text-muted">2022<br />Hypatia Contest</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Certificate of Distinction</h3>
+          <p class="text-muted">2021<br />Cayley Contest</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5 fw-bold">Gold Award</h3>
+          <p class="text-muted">2020<br />APEGA Science Olympics</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scroll to Top and Bottom Buttons -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1030;">
+      <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="btn btn-dark">↑</button><br>
+      <button onclick="window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});"
+        class="btn btn-dark">↓</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer mt-auto py-3">
+    <div class="container text-center">
+      <span class="text-muted">© 2024 Dongwoo Kim</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
